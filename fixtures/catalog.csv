@@ -1,0 +1,8 @@
+sku,name,unit,unit_label,unit_price,keywords
+HS-1102,"Packing tape, 2 in x 55 yd",case,case (24 rolls),42.00,packing;tape
+HS-2204,"Shipping labels, 4 x 6 in",box,box (500 labels),29.00,shipping;label;4x6
+HS-2210,"Shipping labels, 4 x 6 in, blue",box,box (500 labels),31.50,shipping;label;blue;4x6
+HS-2215,"Color-coding labels, 0.75 in round, blue",roll,roll (1000 labels),12.75,color;coding;label;blue;round
+HS-3301,"Bubble wrap, 12 in x 125 ft",roll,roll,18.50,bubble;wrap
+HS-4407,"Padded mailers, size 10",case,case (100),64.00,padded;mailer;envelope
+HS-5120,"Stretch film, 18 in x 1500 ft",roll,roll,24.00,stretch;film;wrap

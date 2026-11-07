@@ -1,0 +1,61 @@
+{
+  "_note": "Fictional demo data. Domains use reserved example.* names; addresses are invented and are not real delivery sites.",
+  "customers": [
+    {
+      "customer_id": "PINE-RIDGE",
+      "name": "Pine Ridge Office Products LLC",
+      "sender_emails": ["purchasing@pineridge.example.com"],
+      "sender_domains": ["pineridge.example.com"],
+      "addresses": [
+        {
+          "address_id": "PR-DAYTON",
+          "label": "Dayton main warehouse",
+          "line1": "Main Warehouse",
+          "line2": "250 Sample Road",
+          "city": "Dayton",
+          "state": "OH",
+          "zip": "45402",
+          "is_default": true
+        },
+        {
+          "address_id": "PR-COLUMBUS",
+          "label": "Columbus receiving dock",
+          "line1": "Receiving Dock",
+          "line2": "100 Example Plaza",
+          "city": "Columbus",
+          "state": "OH",
+          "zip": "43215",
+          "is_default": false
+        }
+      ],
+      "item_codes": {
+        "PR-TAPE-2": "HS-1102",
+        "PR-LABEL-4": "HS-2204",
+        "PR-WRAP-12": "HS-3301",
+        "PR-MAIL-10": "HS-4407"
+      }
+    },
+    {
+      "customer_id": "LAKESHORE",
+      "name": "Lakeshore Packaging Co. (demo)",
+      "sender_emails": [],
+      "sender_domains": ["lakeshore.example.org"],
+      "addresses": [
+        {
+          "address_id": "LS-CHICAGO",
+          "label": "Chicago dock 3",
+          "line1": "Dock 3",
+          "line2": "200 Sample Avenue",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "60601",
+          "is_default": true
+        }
+      ],
+      "item_codes": {
+        "LS-001": "HS-1102",
+        "LS-014": "HS-5120"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Text files are stored with LF line endings.
+* text=auto
+
+# Demo PDFs and emails must stay byte for byte as generated (PDF offsets, MIME bodies, content hashes).
+*.pdf binary
+*.eml -text
+
+*.png binary
+*.mp4 binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,54 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 645 >>
+stream
+BT
+/F1 10 Tf
+14 TL
+54 740 Td
+(Pine Ridge Office Products LLC) '
+(PURCHASE ORDER  \(fictional demo document\)) '
+() '
+(PO Number: PO-48217) '
+(PO Date: 2026-11-02) '
+(Vendor: Harborline Supply Demo LLC) '
+(Ship To: Receiving Dock, 100 Example Plaza, Columbus, OH 43215, USA) '
+(Payment terms: Net 30) '
+() '
+(Line | Item Code | Description | Qty | Unit) '
+(1 | PR-TAPE-2 | Packing tape, 2 in x 55 yd | 6 | case) '
+(2 | PR-LABEL-4 | Shipping labels, 4 x 6 in | 10 | box) '
+(3 | PR-WRAP-12 | Bubble wrap, 12 in x 125 ft | 4 | roll) '
+(4 | PR-MAIL-10 | Padded mailers, size 10 | 2 | case) '
+() '
+() '
+(Authorized by: Dana Whitfield, Purchasing) '
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000344 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1040
+%%EOF

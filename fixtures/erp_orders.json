@@ -1,0 +1,13 @@
+{
+  "_note": "Fictional orders that already exist in the Demo ERP before any email is processed. lines = [sku, quantity, unit]. Used to show a change email that refers to an order this app never saw (fixture H).",
+  "orders": [
+    {
+      "order_id": "SO-0950",
+      "customer_id": "LAKESHORE",
+      "po_number": "PO-48190",
+      "ship_to_address_id": "LS-CHICAGO",
+      "created_at": "2026-10-28T15:20:00+00:00",
+      "lines": [["HS-1102", 4, "case"], ["HS-5120", 10, "roll"]]
+    }
+  ]
+}

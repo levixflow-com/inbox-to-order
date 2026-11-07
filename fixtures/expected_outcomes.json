@@ -1,0 +1,177 @@
+{
+  "_note": "Expected end-to-end outcomes for each fixture thread, processed in this order on a fresh database. Used by tests (rule-based extractor) and by `inbox-to-order eval` (any extractor). lines = [sku, quantity, unit]; null means 'must not be filled in'. These are proposals only: nothing is written to the Demo ERP until an operator confirms.",
+  "order": [
+    "thread-A_initial_order",
+    "thread-C_ambiguous_item",
+    "thread-D_injection_attempt",
+    "thread-E_duplicate_message",
+    "thread-F_image_only_pdf",
+    "thread-G_missing_customer_or_PO",
+    "thread-H_erp_order_change"
+  ],
+  "threads": {
+    "thread-A_initial_order": [
+      {
+        "message_id": "A_initial_order",
+        "outcome": "created",
+        "po_number": "PO-48217",
+        "ship_to": "PR-COLUMBUS",
+        "lines": [
+          [
+            "HS-1102",
+            6,
+            "case"
+          ],
+          [
+            "HS-2204",
+            10,
+            "box"
+          ],
+          [
+            "HS-3301",
+            4,
+            "roll"
+          ],
+          [
+            "HS-4407",
+            2,
+            "case"
+          ]
+        ],
+        "draft_status": "ready"
+      },
+      {
+        "message_id": "B_followup_change",
+        "outcome": "amended",
+        "version": 2,
+        "changes": [
+          {
+            "field": "quantity",
+            "line_no": 1,
+            "before": "6 case",
+            "after": "8 case"
+          }
+        ],
+        "lines": [
+          [
+            "HS-1102",
+            8,
+            "case"
+          ],
+          [
+            "HS-2204",
+            10,
+            "box"
+          ],
+          [
+            "HS-3301",
+            4,
+            "roll"
+          ],
+          [
+            "HS-4407",
+            2,
+            "case"
+          ]
+        ],
+        "draft_status": "ready"
+      }
+    ],
+    "thread-C_ambiguous_item": [
+      {
+        "message_id": "C_ambiguous_item",
+        "outcome": "created",
+        "po_number": "PO-48231",
+        "lines": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            "HS-4407",
+            3,
+            "case"
+          ]
+        ],
+        "draft_status": "needs_review",
+        "question_contains": "Blue labels"
+      }
+    ],
+    "thread-D_injection_attempt": [
+      {
+        "message_id": "D_injection_attempt",
+        "outcome": "created",
+        "po_number": "PO-48240",
+        "ship_to": "PR-COLUMBUS",
+        "lines": [
+          [
+            "HS-3301",
+            5,
+            "roll"
+          ],
+          [
+            "HS-4407",
+            1,
+            "case"
+          ]
+        ],
+        "draft_status": "ready",
+        "min_untrusted": 2
+      }
+    ],
+    "thread-E_duplicate_message": [
+      {
+        "message_id": "E_duplicate_message",
+        "outcome": "duplicate"
+      }
+    ],
+    "thread-F_image_only_pdf": [
+      {
+        "message_id": "F_image_only_pdf",
+        "outcome": "created",
+        "po_number": "PO-48250",
+        "lines": [],
+        "draft_status": "needs_review",
+        "question_contains": "no extractable text"
+      }
+    ],
+    "thread-G_missing_customer_or_PO": [
+      {
+        "message_id": "G_missing_customer_or_PO",
+        "outcome": "needs_review",
+        "no_draft": true
+      }
+    ],
+    "thread-H_erp_order_change": [
+      {
+        "message_id": "H_erp_order_change",
+        "outcome": "amended",
+        "po_number": "PO-48190",
+        "version": 2,
+        "ship_to": "LS-CHICAGO",
+        "changes": [
+          {
+            "field": "quantity",
+            "line_no": 2,
+            "before": "10 roll",
+            "after": "12 roll"
+          }
+        ],
+        "lines": [
+          [
+            "HS-1102",
+            4,
+            "case"
+          ],
+          [
+            "HS-5120",
+            12,
+            "roll"
+          ]
+        ],
+        "draft_status": "ready"
+      }
+    ]
+  }
+}
