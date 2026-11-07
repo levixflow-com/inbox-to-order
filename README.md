@@ -50,7 +50,9 @@ screens are the same.
 The same flow on a Gmail test account with 10 emails, one of them with a PDF purchase order, read by Claude
 Haiku 5.5. 53 seconds, no sound.
 
-[![Video: order emails in, ERP orders out. Click to watch](docs/media/video-cover.png)](docs/media/inbox-to-order.mp4)
+https://github.com/user-attachments/assets/96d8640f-d14b-471c-8f87-ab93623cd8d6
+
+The same video is in the repository: [docs/media/inbox-to-order.mp4](docs/media/inbox-to-order.mp4).
 
 Measured in that run: all 10 emails read and sorted in **19.4 s**, PDF included, about $0.001 to $0.002 of AI
 cost per email. The result: 3 orders ready to confirm, 1 question for a person, 3 emails set aside as not
